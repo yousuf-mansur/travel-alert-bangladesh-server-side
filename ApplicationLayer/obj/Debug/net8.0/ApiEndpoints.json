@@ -1,0 +1,3065 @@
+[
+  {
+    "ContainingType": "ApplicationLayer.Controllers.CountryController",
+    "Method": "PostCountry",
+    "RelativePath": "api/Country/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.CountryInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.Entities.Country",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.CountryController",
+    "Method": "DeleteCountry",
+    "RelativePath": "api/Country/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.CountryController",
+    "Method": "PutCountry",
+    "RelativePath": "api/Country/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.CountryInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.CountryController",
+    "Method": "GetCountries",
+    "RelativePath": "api/Country/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataAccessLayer.Entities.Country, DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.CountryController",
+    "Method": "GetCountry",
+    "RelativePath": "api/Country/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.Entities.Country",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.DayCostCategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/DayCostCategory/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.DayCostCategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/DayCostCategory/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.DayCostCategoryController",
+    "Method": "GetById",
+    "RelativePath": "api/DayCostCategory/get-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.DayCostCategoryController",
+    "Method": "Insert",
+    "RelativePath": "api/DayCostCategory/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.DayCostCategoryInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.DayCostCategoryController",
+    "Method": "Update",
+    "RelativePath": "api/DayCostCategory/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.DayCostCategoryInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.FacilitiesController",
+    "Method": "CreateFacility",
+    "RelativePath": "api/Facilities/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inputModel",
+        "Type": "DataAccessLayer.DTOs.InputModels.FacilityInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.DTOs.OutputModels.FacilityOutputModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.FacilitiesController",
+    "Method": "DeleteFacility",
+    "RelativePath": "api/Facilities/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.FacilitiesController",
+    "Method": "UpdateFacility",
+    "RelativePath": "api/Facilities/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "inputModel",
+        "Type": "DataAccessLayer.DTOs.InputModels.FacilityInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.FacilitiesController",
+    "Method": "GetFacilities",
+    "RelativePath": "api/Facilities/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataAccessLayer.DTOs.OutputModels.FacilityOutputModel, DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.FacilitiesController",
+    "Method": "GetFacility",
+    "RelativePath": "api/Facilities/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.DTOs.OutputModels.FacilityOutputModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.FoodItemsController",
+    "Method": "GetAllFoodItems",
+    "RelativePath": "api/FoodItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.FoodItemsController",
+    "Method": "GetFoodItem",
+    "RelativePath": "api/FoodItems/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.FoodItemsController",
+    "Method": "CreateFoodItem",
+    "RelativePath": "api/FoodItems/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.FoodItemInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.FoodItemsController",
+    "Method": "DeleteFoodItem",
+    "RelativePath": "api/FoodItems/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.FoodItemsController",
+    "Method": "PutFoodItem",
+    "RelativePath": "api/FoodItems/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "foodItemModel",
+        "Type": "DataAccessLayer.DTOs.InputModels.FoodItemInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.HotelImageController",
+    "Method": "GetHotelImage",
+    "RelativePath": "api/HotelImage/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.DTOs.OutputModels.Outputimage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.HotelImageController",
+    "Method": "DeleteHotelImage",
+    "RelativePath": "api/HotelImage/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.HotelImageController",
+    "Method": "CreateHotelImage",
+    "RelativePath": "api/HotelImage/add/image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "HotelID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageProfile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Caption",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsThumbnail",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedOn",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.DTOs.InputModels.InputImage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.HotelImageController",
+    "Method": "UpdateHotelImage",
+    "RelativePath": "api/HotelImage/update/image/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "HotelID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageProfile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Caption",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsThumbnail",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedOn",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.HotelsController",
+    "Method": "GetHotels",
+    "RelativePath": "api/Hotels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.HotelsController",
+    "Method": "DeleteHotel",
+    "RelativePath": "api/Hotels/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.HotelsController",
+    "Method": "GetHotel",
+    "RelativePath": "api/Hotels/{ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.HotelsController",
+    "Method": "CreateHotel",
+    "RelativePath": "api/Hotels/add/hotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "facilityWiseHotel",
+        "Type": "DataAccessLayer.DTOs.InputModels.FacilityWiseHotel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.HotelsController",
+    "Method": "UpdateHotel",
+    "RelativePath": "api/Hotels/update/hotel/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "facilityWiseHotel",
+        "Type": "DataAccessLayer.DTOs.InputModels.FacilityWiseHotel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.LocationController",
+    "Method": "GetLocations",
+    "RelativePath": "api/Location",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataAccessLayer.DTOs.OutputModels.LocationDTO, DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.LocationController",
+    "Method": "GetLocation",
+    "RelativePath": "api/Location/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.Entities.Location",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.LocationController",
+    "Method": "PostLocation",
+    "RelativePath": "api/Location/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.LocationInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.LocationController",
+    "Method": "DeleteLocation",
+    "RelativePath": "api/Location/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.LocationController",
+    "Method": "PutLocation",
+    "RelativePath": "api/Location/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.LocationInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.LocationGalleryController",
+    "Method": "PostLocationGallery",
+    "RelativePath": "api/LocationGallery/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsPrimary",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageCaption",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LocationID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.LocationGalleryController",
+    "Method": "DeleteLocationGallery",
+    "RelativePath": "api/LocationGallery/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.LocationGalleryController",
+    "Method": "PutLocationGallery",
+    "RelativePath": "api/LocationGallery/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsPrimary",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageCaption",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LocationID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.LocationGalleryController",
+    "Method": "GetGalleriesByLocationId",
+    "RelativePath": "api/LocationGallery/locationGallery/{locationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataAccessLayer.Entities.LocationGallery, DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.MealTypesController",
+    "Method": "GetMealTypes",
+    "RelativePath": "api/MealTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataAccessLayer.Entities.MealType, DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.MealTypesController",
+    "Method": "GetMealType",
+    "RelativePath": "api/MealTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.Entities.MealType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.MealTypesController",
+    "Method": "PostMealType",
+    "RelativePath": "api/MealTypes/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mealType",
+        "Type": "DataAccessLayer.Entities.MealType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.Entities.MealType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.MealTypesController",
+    "Method": "DeleteMealType",
+    "RelativePath": "api/MealTypes/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.MealTypesController",
+    "Method": "PutMealType",
+    "RelativePath": "api/MealTypes/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mealType",
+        "Type": "DataAccessLayer.Entities.MealType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "CalculateAndInsertCosts",
+    "RelativePath": "api/Package",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddPackageAccommodation",
+    "RelativePath": "api/Package/accommodations/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageAccommodationInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetPackageAccommodations",
+    "RelativePath": "api/Package/accommodations/get/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "CreatePackage",
+    "RelativePath": "api/Package/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddPackageBudget",
+    "RelativePath": "api/Package/add-package-budget",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageBudgetInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddPackageFacility",
+    "RelativePath": "api/Package/add-package-facility",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageFacilityInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddPackageFAQ",
+    "RelativePath": "api/Package/add-package-faq",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageFAQInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddPackageGallery",
+    "RelativePath": "api/Package/add-package-gallery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsPrimary",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageCaption",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PackageID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "PostPackageLocation",
+    "RelativePath": "api/Package/add-package-location/{packageId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageLocationInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "DeletePackageFAQ",
+    "RelativePath": "api/Package/delete-package-faq/{faqId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faqId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetDailyTotalCost",
+    "RelativePath": "api/Package/get-daily-total-cost/{packageID}/{dayNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dayNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetAllImagesByPackageId",
+    "RelativePath": "api/Package/get-images-by-package/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetPackageBudget",
+    "RelativePath": "api/Package/get-package-budget/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetAllFAQsByPackageId",
+    "RelativePath": "api/Package/get-package-faqs/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetPackageById",
+    "RelativePath": "api/Package/get-package/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetTotalCostByCategory",
+    "RelativePath": "api/Package/get-total-cost-by-category/{packageID}/{dayCostCategoryID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dayCostCategoryID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetLocationByPackageId",
+    "RelativePath": "api/Package/package-location/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.Entities.PackageLocation",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddPackageDetails",
+    "RelativePath": "api/Package/packagedetails/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageDetailsInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetPackageDetailsByPackageId",
+    "RelativePath": "api/Package/packagedetails/get/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "UpdatePackageDetails",
+    "RelativePath": "api/Package/packagedetails/update/{packageId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageDetailsInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddPackageExclude",
+    "RelativePath": "api/Package/packageexcludes/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageExcludesInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetPackageExcludesByPackageId",
+    "RelativePath": "api/Package/packageexcludes/get/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "UpdatePackageExclude",
+    "RelativePath": "api/Package/packageexcludes/update/{packageId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageExcludesUpdateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddPackageFoodItem",
+    "RelativePath": "api/Package/packagefood/add/{packageID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageFoodItemInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetPackageFoodItems",
+    "RelativePath": "api/Package/packagefooditem/get/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddPackageInclude",
+    "RelativePath": "api/Package/packageincludes/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageIncludesInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetPackageIncludesByPackageId",
+    "RelativePath": "api/Package/packageincludes/get/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "UpdatePackageInclude",
+    "RelativePath": "api/Package/packageincludes/update/{packageId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageIncludesUpdateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetScheduleById",
+    "RelativePath": "api/Package/schedule/{packageID}/{scheduleID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "scheduleID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddSchedule",
+    "RelativePath": "api/Package/schedule/add/{packageID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.ScheduleInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "DeleteSchedule",
+    "RelativePath": "api/Package/schedule/delete/{scheduleID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scheduleID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "UpdateSchedule",
+    "RelativePath": "api/Package/schedule/edit/{scheduleID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scheduleID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.ScheduleInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetSchedulesByPackageID",
+    "RelativePath": "api/Package/schedule/get/{packageID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddPackageTransportation",
+    "RelativePath": "api/Package/transport/add/{packageId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageTransportationInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetPackageTransportation",
+    "RelativePath": "api/Package/transport/get/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "UpdatePackageBudgetOtherCost",
+    "RelativePath": "api/Package/update-package-budget-othercost/{packageId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageBudgetInsertModelPart",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "UpdatePackageFAQ",
+    "RelativePath": "api/Package/update-package-faq/{faqId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faqId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageFAQInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "UpdatePackageGallery",
+    "RelativePath": "api/Package/update-package-gallery/{galleryId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "galleryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsPrimary",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageCaption",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PackageID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "UpdatePackage",
+    "RelativePath": "api/Package/update-package/{packageId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddTourVoucher",
+    "RelativePath": "api/Package/voucher/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TourVoucherCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VoucherFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "DeleteTourVoucher",
+    "RelativePath": "api/Package/voucher/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "UpdateTourVoucher",
+    "RelativePath": "api/Package/voucher/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "TourVoucherCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VoucherFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetTourVouchers",
+    "RelativePath": "api/Package/voucher/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetTourVoucherById",
+    "RelativePath": "api/Package/voucher/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageCategoryController",
+    "Method": "CreatePackageCategory",
+    "RelativePath": "api/PackageCategory/add-category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageCategoryInsertModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "customUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageCategoryController",
+    "Method": "GetAllPackageCategories",
+    "RelativePath": "api/PackageCategory/all-categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageCategoryController",
+    "Method": "GetPackageCategoryById",
+    "RelativePath": "api/PackageCategory/category/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "customUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageCategoryController",
+    "Method": "UpdatePackageCategory",
+    "RelativePath": "api/PackageCategory/update-category/{categoryId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageCategoryInsertModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "customUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageGetController",
+    "Method": "GetPackageDetails",
+    "RelativePath": "api/PackageGet/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.DTOs.OutputModels.GetPackageDetailsModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageSubCategoryController",
+    "Method": "CreateSubCategory",
+    "RelativePath": "api/PackageSubCategory/add-subcategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageSubCategoryInsertModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "customUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageSubCategoryController",
+    "Method": "GetAllSubCategories",
+    "RelativePath": "api/PackageSubCategory/get-all-subcategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageSubCategoryController",
+    "Method": "GetSubCategoriesByCategory",
+    "RelativePath": "api/PackageSubCategory/get-subcategories-by-category/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageSubCategoryController",
+    "Method": "GetSubCategoryById",
+    "RelativePath": "api/PackageSubCategory/get-subcategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageSubCategoryController",
+    "Method": "UpdateSubCategory",
+    "RelativePath": "api/PackageSubCategory/update-subcategory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageSubCategoryInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataAccessLayer.Entities.Controllers.RoomsController",
+    "Method": "GetRooms",
+    "RelativePath": "api/Rooms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataAccessLayer.Entities.Controllers.RoomsController",
+    "Method": "GetRoom",
+    "RelativePath": "api/Rooms/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataAccessLayer.Entities.Controllers.RoomsController",
+    "Method": "CreateRoom",
+    "RelativePath": "api/Rooms/add/room",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomDTO",
+        "Type": "DataAccessLayer.DTOs.InputModels.RoomDTOs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataAccessLayer.Entities.Controllers.RoomsController",
+    "Method": "DeleteRoom",
+    "RelativePath": "api/Rooms/Rooms/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataAccessLayer.Entities.Controllers.RoomsController",
+    "Method": "UpdateRoom",
+    "RelativePath": "api/Rooms/update/room/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "roomDTO",
+        "Type": "DataAccessLayer.DTOs.InputModels.RoomDTOs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.RoomSubTypesController",
+    "Method": "GetRoomSubTypes",
+    "RelativePath": "api/RoomSubTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataAccessLayer.DTOs.InputModels.RoomSubTypeDTO, DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.RoomSubTypesController",
+    "Method": "GetRoomSubType",
+    "RelativePath": "api/RoomSubTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.DTOs.InputModels.RoomSubTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.RoomSubTypesController",
+    "Method": "DeleteRoomSubType",
+    "RelativePath": "api/RoomSubTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.RoomSubTypesController",
+    "Method": "CreateRoomSubType",
+    "RelativePath": "api/RoomSubTypes/add/sub/type",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoomSubTypeID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubTypeName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.DTOs.InputModels.RoomSubTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.RoomSubTypesController",
+    "Method": "UpdateRoomSubType",
+    "RelativePath": "api/RoomSubTypes/update-sub-type/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "RoomSubTypeID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubTypeName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.RoomTypesController",
+    "Method": "GetRoomTypes",
+    "RelativePath": "api/RoomTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataAccessLayer.DTOs.InputModels.RoomTypeDTO, DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.RoomTypesController",
+    "Method": "GetRoomType",
+    "RelativePath": "api/RoomTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.DTOs.InputModels.RoomTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.RoomTypesController",
+    "Method": "DeleteRoomType",
+    "RelativePath": "api/RoomTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.RoomTypesController",
+    "Method": "CreateRoomType",
+    "RelativePath": "api/RoomTypes/add/type",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoomTypeID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TypeName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.DTOs.InputModels.RoomTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.RoomTypesController",
+    "Method": "UpdateRoomType",
+    "RelativePath": "api/RoomTypes/update/type/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "RoomTypeID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TypeName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.SeatsController",
+    "Method": "AddSeat",
+    "RelativePath": "api/Seats/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.SeatsInsertModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "customUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.SeatsController",
+    "Method": "DeleteSeat",
+    "RelativePath": "api/Seats/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.SeatsController",
+    "Method": "GetAllSeats",
+    "RelativePath": "api/Seats/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.SeatsController",
+    "Method": "GetSeatById",
+    "RelativePath": "api/Seats/get-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.SeatsController",
+    "Method": "GetLink",
+    "RelativePath": "api/Seats/getlink",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.SeatsController",
+    "Method": "UpdateSeat",
+    "RelativePath": "api/Seats/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.SeatsInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.StateController",
+    "Method": "PostState",
+    "RelativePath": "api/State/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.StateInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.Entities.State",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.StateController",
+    "Method": "DeleteState",
+    "RelativePath": "api/State/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.StateController",
+    "Method": "PutState",
+    "RelativePath": "api/State/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.StateInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.StateController",
+    "Method": "GetStates",
+    "RelativePath": "api/State/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataAccessLayer.DTOs.OutputModels.StateOutputModel, DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.StateController",
+    "Method": "GetState",
+    "RelativePath": "api/State/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.Entities.State",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationController",
+    "Method": "AddTransportation",
+    "RelativePath": "api/Transportation/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.TransportationInsertModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "customUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationController",
+    "Method": "DeleteTransportation",
+    "RelativePath": "api/Transportation/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationController",
+    "Method": "GetAllTransportation",
+    "RelativePath": "api/Transportation/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationController",
+    "Method": "GetTransportationById",
+    "RelativePath": "api/Transportation/getid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationController",
+    "Method": "UpdateTransportation",
+    "RelativePath": "api/Transportation/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.TransportationInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationCatagoryController",
+    "Method": "AddCategory",
+    "RelativePath": "api/TransportationCatagory/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.TransportationCatagoryInsertModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "customUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationCatagoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/TransportationCatagory/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationCatagoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/TransportationCatagory/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationCatagoryController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/TransportationCatagory/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationCatagoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/TransportationCatagory/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.TransportationCatagoryInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationTypeController",
+    "Method": "AddType",
+    "RelativePath": "api/TransportationType/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.TransportationTypeInsertModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "customUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationTypeController",
+    "Method": "DeleteType",
+    "RelativePath": "api/TransportationType/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationTypeController",
+    "Method": "GetAllTypes",
+    "RelativePath": "api/TransportationType/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationTypeController",
+    "Method": "GetTypeById",
+    "RelativePath": "api/TransportationType/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportationTypeController",
+    "Method": "UpdateType",
+    "RelativePath": "api/TransportationType/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.TransportationTypeInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportProviderController",
+    "Method": "AddTransportProvider",
+    "RelativePath": "api/TransportProvider/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.TransportProviderInsertModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "customUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportProviderController",
+    "Method": "DeleteTransportProvider",
+    "RelativePath": "api/TransportProvider/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportProviderController",
+    "Method": "UpdateTransportProvider",
+    "RelativePath": "api/TransportProvider/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.TransportProviderInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportProviderController",
+    "Method": "GetAllTransportProviders",
+    "RelativePath": "api/TransportProvider/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.TransportProviderController",
+    "Method": "GetTransportProviderById",
+    "RelativePath": "api/TransportProvider/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.UrlServiceController",
+    "Method": "GetUrlServices",
+    "RelativePath": "api/UrlService",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataAccessLayer.DTOs.InputModels.UrlServiceDTO, DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.UrlServiceController",
+    "Method": "PostUrlService",
+    "RelativePath": "api/UrlService",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "urlServiceDTO",
+        "Type": "DataAccessLayer.DTOs.InputModels.UrlServiceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.DTOs.InputModels.UrlServiceDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.UrlServiceController",
+    "Method": "GetUrlService",
+    "RelativePath": "api/UrlService/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.DTOs.InputModels.UrlServiceDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.UrlServiceController",
+    "Method": "PutUrlService",
+    "RelativePath": "api/UrlService/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "urlServiceDTO",
+        "Type": "DataAccessLayer.DTOs.InputModels.UrlServiceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.UrlServiceController",
+    "Method": "DeleteUrlService",
+    "RelativePath": "api/UrlService/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.UrlServiceController",
+    "Method": "GetAllCurrentUrls",
+    "RelativePath": "api/UrlService/currenturls",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataAccessLayer.DTOs.InputModels.CurrentUrlDTO, DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.UrlServiceController",
+    "Method": "GetAllRequestUrls",
+    "RelativePath": "api/UrlService/requesturls",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataAccessLayer.DTOs.InputModels.RequestUrlDTO, DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.VoucherController",
+    "Method": "AddTourVoucher",
+    "RelativePath": "api/Voucher/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TourVoucherCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VoucherFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.VoucherController",
+    "Method": "DeleteTourVoucher",
+    "RelativePath": "api/Voucher/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.VoucherController",
+    "Method": "UpdateTourVoucher",
+    "RelativePath": "api/Voucher/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "TourVoucherCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VoucherFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.VoucherController",
+    "Method": "GetTourVouchers",
+    "RelativePath": "api/Voucher/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.VoucherController",
+    "Method": "GetTourVoucherById",
+    "RelativePath": "api/Voucher/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApplicationLayer.WeatherForecast, ApplicationLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
