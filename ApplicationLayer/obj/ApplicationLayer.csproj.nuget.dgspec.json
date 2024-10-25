@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\SheUpdate\\TravelUpdateNewApi-master\\ApplicationLayer\\ApplicationLayer.csproj": {}
+    "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\ApplicationLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\SheUpdate\\TravelUpdateNewApi-master\\ApplicationLayer\\ApplicationLayer.csproj": {
+    "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\ApplicationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\SheUpdate\\TravelUpdateNewApi-master\\ApplicationLayer\\ApplicationLayer.csproj",
+        "projectUniqueName": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\ApplicationLayer.csproj",
         "projectName": "ApplicationLayer",
-        "projectPath": "C:\\Users\\HP\\Desktop\\SheUpdate\\TravelUpdateNewApi-master\\ApplicationLayer\\ApplicationLayer.csproj",
+        "projectPath": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\ApplicationLayer.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\SheUpdate\\TravelUpdateNewApi-master\\ApplicationLayer\\obj\\",
+        "outputPath": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\SheUpdate\\TravelUpdateNewApi-master\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\SheUpdate\\TravelUpdateNewApi-master\\DataAccessLayer\\DataAccessLayer.csproj"
+              "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\SheUpdate\\TravelUpdateNewApi-master\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\SheUpdate\\TravelUpdateNewApi-master\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\HP\\Desktop\\SheUpdate\\TravelUpdateNewApi-master\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\SheUpdate\\TravelUpdateNewApi-master\\DataAccessLayer\\obj\\",
+        "outputPath": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

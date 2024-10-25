@@ -24,3 +24,16 @@ C:\Users\HP\Desktop\SheUpdate\TravelUpdateNewApi-master\DataAccessLayer\obj\Debu
 C:\Users\HP\Desktop\SheUpdate\TravelUpdateNewApi-master\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
 C:\Users\HP\Desktop\SheUpdate\TravelUpdateNewApi-master\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
 C:\Users\HP\Desktop\SheUpdate\TravelUpdateNewApi-master\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\IsDB-BISEW\GitProject\TravelAlertBangladeshServerSide\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
