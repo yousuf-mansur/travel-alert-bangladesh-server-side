@@ -20,7 +20,7 @@ namespace ApplicationLayer.Controllers
 
         }
 
-        [HttpGet("all-categories")]
+        [HttpGet("get/all/categories")]
         public async Task<IActionResult> GetAllPackageCategories([FromQuery] string? customUrl = null)
         {
             var packageCategories = await _context.PackageCategories
@@ -51,7 +51,7 @@ namespace ApplicationLayer.Controllers
         }
 
 
-        [HttpPost("add-category")]
+        [HttpPost("add/category")]
         public async Task<IActionResult> CreatePackageCategory([FromBody] PackageCategoryInsertModel model, [FromQuery] string? customUrl = null)
         {
             if (!ModelState.IsValid)
@@ -81,7 +81,7 @@ namespace ApplicationLayer.Controllers
             });
         }
 
-        [HttpGet("category/{categoryId}")]
+        [HttpGet("get/category/{categoryId}")]
         public async Task<IActionResult> GetPackageCategoryById(int categoryId, [FromQuery] string? customUrl = null)
         {
             var packageCategory = await _context.PackageCategories
@@ -113,7 +113,7 @@ namespace ApplicationLayer.Controllers
         }
 
 
-        [HttpPut("update-category/{categoryId}")]
+        [HttpPut("update/category/{categoryId}")]
         public async Task<IActionResult> UpdatePackageCategory(int categoryId, [FromBody] PackageCategoryInsertModel model, [FromQuery] string? customUrl = null)
         {
             var packageCategory = await _context.PackageCategories.FindAsync(categoryId);

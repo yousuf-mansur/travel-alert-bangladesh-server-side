@@ -23,8 +23,8 @@ namespace ApplicationLayer.Controllers
 
         #region Package
 
-        [HttpPost("add")]
-        public async Task<IActionResult> CreatePackage([FromBody] PackageInsertModel model)
+        [HttpPost("add/package")]
+        public async Task<IActionResult> CreatePackage([FromBody] PackageInsertModel model, [FromQuery] string? customUrl = null)
         {
             if (!ModelState.IsValid)
             {
@@ -68,7 +68,6 @@ namespace ApplicationLayer.Controllers
             _context.Packages.Add(package);
             await _context.SaveChangesAsync();
 
-
             var request = HttpContext.Request;
             var rowPath = request.Path;
             var path = UrlTask.RemoveLastSegment(rowPath);
@@ -95,12 +94,37 @@ namespace ApplicationLayer.Controllers
                 success = true,
                 message = "Package created successfully.",
                 packageId = package.PackageID,
-                url = requestUrl 
+                url = requestUrl
             });
         }
 
+        [HttpGet("get/all/packages")]
+        public async Task<IActionResult> GetAllPackages()
+        {
+            var packages = await _context.Packages
+                .Select(p => new
+                {
+                    p.PackageID,
+                    p.PackageTitle,
+                    p.PackageDescription,
+                    p.IsAvailable,
+                    p.PackageCategoryID,
+                    p.PackageSubCategoryID,
+                    p.CreatedAt,
+                    p.UpdatedAt
+                })
+                .ToListAsync();
 
-        [HttpGet("get-package/{packageId}")]
+            if (packages == null || !packages.Any())
+            {
+                return NotFound(new { success = false, message = "No packages found." });
+            }
+
+            return Ok(new { success = true, data = packages });
+        }
+
+
+        [HttpGet("get/package/{packageId}")]
         public async Task<IActionResult> GetPackageById(int packageId)
         {
             var package = await _context.Packages
@@ -375,7 +399,7 @@ namespace ApplicationLayer.Controllers
 
         #region Package Gallery
 
-        [HttpPost("add-package-gallery")]
+        [HttpPost("add/package/gallery")]
         public async Task<IActionResult> AddPackageGallery([FromForm] PackageGalleryInsertModel model)
         {
             if (model.ImageFile == null || model.ImageFile.Length == 0)
@@ -405,7 +429,8 @@ namespace ApplicationLayer.Controllers
             });
         }
 
-        [HttpGet("get-images-by-package/{packageId}")]
+
+        [HttpGet("get/package/gallery/{packageId}")]
         public async Task<IActionResult> GetAllImagesByPackageId(int packageId)
         {
             var package = await _context.Packages
@@ -429,21 +454,57 @@ namespace ApplicationLayer.Controllers
                 })
                 .ToListAsync();
 
-            if (images.Count == 0)
-            {
-                return NotFound(new { success = false, message = "No images found for this package." });
-            }
-
             return Ok(new
             {
                 success = true,
                 packageId = package.PackageID,
                 packageTitle = package.PackageTitle,
-                images
+                images = images  // Return direct array instead of nested object
             });
         }
 
-        [HttpPut("update-package-gallery/{galleryId}")]
+
+
+
+        //[HttpGet("get/package/gallery/{packageId}")]
+        //public async Task<IActionResult> GetAllImagesByPackageId(int packageId)
+        //{
+        //    var package = await _context.Packages
+        //        .Where(p => p.PackageID == packageId)
+        //        .Select(p => new { p.PackageID, p.PackageTitle })
+        //        .FirstOrDefaultAsync();
+
+        //    if (package == null)
+        //    {
+        //        return NotFound(new { success = false, message = "Package not found." });
+        //    }
+
+        //    var images = await _context.PackageGallery
+        //        .Where(g => g.PackageID == packageId)
+        //        .Select(g => new
+        //        {
+        //            g.PackageGalleryID,
+        //            g.ImageUrl,
+        //            g.IsPrimary,
+        //            g.ImageCaption
+        //        })
+        //        .ToListAsync();
+
+        //    if (images.Count == 0)
+        //    {
+        //        return NotFound(new { success = false, message = "No images found for this package." });
+        //    }
+
+        //    return Ok(new
+        //    {
+        //        success = true,
+        //        packageId = package.PackageID,
+        //        packageTitle = package.PackageTitle,
+        //        images
+        //    });
+        //}
+
+        [HttpPut("update/package/gallery/{galleryId}")]
         public async Task<IActionResult> UpdatePackageGallery(int galleryId, [FromForm] PackageGalleryInsertModel model)
         {
             var existingGallery = await _context.PackageGallery.FirstOrDefaultAsync(g => g.PackageGalleryID == galleryId);
@@ -488,7 +549,7 @@ namespace ApplicationLayer.Controllers
 
         #region Package Facility
 
-        [HttpPost("add-package-facility")]
+        [HttpPost("add/package/facility")]
         public async Task<IActionResult> AddPackageFacility([FromBody] PackageFacilityInsertModel model)
         {
             if (!ModelState.IsValid)

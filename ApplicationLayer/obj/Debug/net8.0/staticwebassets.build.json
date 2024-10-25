@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oeghCpRjbq3JabbgUVNObZ3G5x8PdlpzBuHjEQ2Au8o=",
+  "Hash": "1nKRgiY7BqZ8zpCsu1YEFBAOWgFoIz7KUCnQ8yStULQ=",
   "Source": "ApplicationLayer",
   "BasePath": "_content/ApplicationLayer",
   "Mode": "Default",
@@ -16,6 +16,63 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\Uploads\\Packages\\Akhi_317d56bd-7ba6-4013-bc1a-8975a7119657.jpg",
+      "SourceId": "ApplicationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\",
+      "BasePath": "_content/ApplicationLayer",
+      "RelativePath": "Uploads/Packages/Akhi_317d56bd-7ba6-4013-bc1a-8975a7119657.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Packages\\Akhi_317d56bd-7ba6-4013-bc1a-8975a7119657.jpg"
+    },
+    {
+      "Identity": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\Uploads\\Packages\\Mredul_733883d6-cce9-4d97-af44-710576cc4744.jpg",
+      "SourceId": "ApplicationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\",
+      "BasePath": "_content/ApplicationLayer",
+      "RelativePath": "Uploads/Packages/Mredul_733883d6-cce9-4d97-af44-710576cc4744.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Packages\\Mredul_733883d6-cce9-4d97-af44-710576cc4744.jpg"
+    },
+    {
+      "Identity": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\Uploads\\Voucher\\1729486125393_3a8e8990-9ec7-45b3-b316-4f3ab424aa38.jpeg",
+      "SourceId": "ApplicationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\",
+      "BasePath": "_content/ApplicationLayer",
+      "RelativePath": "Uploads/Voucher/1729486125393_3a8e8990-9ec7-45b3-b316-4f3ab424aa38.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Voucher\\1729486125393_3a8e8990-9ec7-45b3-b316-4f3ab424aa38.jpeg"
+    },
     {
       "Identity": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\Uploads\\Voucher\\260013418_982981525758121_4530011711340350889_n_138bc7ec-1823-46ca-906d-5dd27cbea28a.jpg",
       "SourceId": "ApplicationLayer",
@@ -55,6 +112,25 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Voucher\\content_5e782029-60b2-4f0c-aea6-8032ac7715e1.png"
     },
     {
+      "Identity": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\Uploads\\Voucher\\Mamun_cf0656dc-e39d-4e7f-97cb-4e4f0fc293a9.jpg",
+      "SourceId": "ApplicationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\",
+      "BasePath": "_content/ApplicationLayer",
+      "RelativePath": "Uploads/Voucher/Mamun_cf0656dc-e39d-4e7f-97cb-4e4f0fc293a9.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Voucher\\Mamun_cf0656dc-e39d-4e7f-97cb-4e4f0fc293a9.jpg"
+    },
+    {
       "Identity": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\Uploads\\Voucher\\slackPhoto_03b122d3-6be8-4195-94b7-7b7d46933c08.jpg",
       "SourceId": "ApplicationLayer",
       "SourceType": "Discovered",
@@ -91,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\Voucher\\slackPhoto_859c2a41-40d2-42c4-9182-0b65d801cac6.jpg"
+    },
+    {
+      "Identity": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\Uploads\\Voucher\\Turjo_6782e898-6f84-44fa-ab87-7ccfc8e4df54.jpg",
+      "SourceId": "ApplicationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\IsDB-BISEW\\GitProject\\TravelAlertBangladeshServerSide\\ApplicationLayer\\wwwroot\\",
+      "BasePath": "_content/ApplicationLayer",
+      "RelativePath": "Uploads/Voucher/Turjo_6782e898-6f84-44fa-ab87-7ccfc8e4df54.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Voucher\\Turjo_6782e898-6f84-44fa-ab87-7ccfc8e4df54.jpg"
     }
   ]
 }

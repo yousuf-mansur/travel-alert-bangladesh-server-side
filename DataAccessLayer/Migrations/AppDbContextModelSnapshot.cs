@@ -111,7 +111,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("BaseCostID");
 
-                    b.ToTable("BaseCosts");
+                    b.ToTable("BaseCosts", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Booking", b =>
@@ -148,7 +148,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("Bookings");
+                    b.ToTable("Bookings", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Country", b =>
@@ -165,7 +165,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("CountryID");
 
-                    b.ToTable("Countries");
+                    b.ToTable("Countries", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.CurrentUrl", b =>
@@ -186,7 +186,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("CurrentUrlId");
 
-                    b.ToTable("CurrentUrls");
+                    b.ToTable("CurrentUrls", (string)null);
 
                     b.HasData(
                         new
@@ -397,7 +397,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("DayCostCategoryID");
 
-                    b.ToTable("DayCostCategory");
+                    b.ToTable("DayCostCategory", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.DayWiseTourCost", b =>
@@ -428,7 +428,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("DayWiseTourCosts");
+                    b.ToTable("DayWiseTourCosts", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Facility", b =>
@@ -452,7 +452,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("FacilityID");
 
-                    b.ToTable("Facilities");
+                    b.ToTable("Facilities", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.FoodItem", b =>
@@ -475,7 +475,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("FoodItemID");
 
-                    b.ToTable("FoodItems");
+                    b.ToTable("FoodItems", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Guide", b =>
@@ -522,7 +522,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("ApplicationUserID");
 
-                    b.ToTable("Guides");
+                    b.ToTable("Guides", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Hotel", b =>
@@ -563,7 +563,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("LocationID");
 
-                    b.ToTable("Hotels");
+                    b.ToTable("Hotels", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.HotelFacility", b =>
@@ -592,7 +592,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("HotelID");
 
-                    b.ToTable("HotelFacilities");
+                    b.ToTable("HotelFacilities", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.HotelImage", b =>
@@ -624,7 +624,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("HotelID");
 
-                    b.ToTable("HotelImages");
+                    b.ToTable("HotelImages", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Location", b =>
@@ -650,7 +650,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("StateID");
 
-                    b.ToTable("Locations");
+                    b.ToTable("Locations", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.LocationGallery", b =>
@@ -679,7 +679,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("LocationID");
 
-                    b.ToTable("LocationGalleries");
+                    b.ToTable("LocationGalleries", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.MealType", b =>
@@ -696,7 +696,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("MealTypeID");
 
-                    b.ToTable("MealTypes");
+                    b.ToTable("MealTypes", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Package", b =>
@@ -736,7 +736,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageSubCategoryID");
 
-                    b.ToTable("Packages");
+                    b.ToTable("Packages", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageAccommodation", b =>
@@ -768,7 +768,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("RoomID");
 
-                    b.ToTable("PackageAccommodations");
+                    b.ToTable("PackageAccommodations", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageAccounts", b =>
@@ -807,7 +807,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("PackageAccounts");
+                    b.ToTable("PackageAccounts", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageBudget", b =>
@@ -840,7 +840,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("PackageBudgets");
+                    b.ToTable("PackageBudgets", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageCategory", b =>
@@ -867,7 +867,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("PackageCategoryID");
 
-                    b.ToTable("PackageCategories");
+                    b.ToTable("PackageCategories", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageDetails", b =>
@@ -910,7 +910,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("PackageDetails");
+                    b.ToTable("PackageDetails", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageExcludes", b =>
@@ -933,7 +933,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("PackageExcludes");
+                    b.ToTable("PackageExcludes", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageFAQ", b =>
@@ -959,7 +959,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("PackageFAQ");
+                    b.ToTable("PackageFAQ", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageFacility", b =>
@@ -982,7 +982,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("PackageFacilities");
+                    b.ToTable("PackageFacilities", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageFoodItem", b =>
@@ -1025,7 +1025,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("PackageFoodItems");
+                    b.ToTable("PackageFoodItems", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageGallery", b =>
@@ -1054,7 +1054,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("PackageGallery");
+                    b.ToTable("PackageGallery", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageIncludes", b =>
@@ -1077,7 +1077,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("PackageIncludes");
+                    b.ToTable("PackageIncludes", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageLocation", b =>
@@ -1100,7 +1100,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("PackageLocation");
+                    b.ToTable("PackageLocation", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageSubCategory", b =>
@@ -1132,7 +1132,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageCategoryID");
 
-                    b.ToTable("PackageSubCategories");
+                    b.ToTable("PackageSubCategories", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageTransportation", b =>
@@ -1179,7 +1179,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("TransportationTypeID");
 
-                    b.ToTable("PackageTransportations");
+                    b.ToTable("PackageTransportations", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PackageUser", b =>
@@ -1212,7 +1212,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("PackageUsers");
+                    b.ToTable("PackageUsers", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Payment", b =>
@@ -1274,7 +1274,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PromotionID");
 
-                    b.ToTable("Payments");
+                    b.ToTable("Payments", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PaymentMethod", b =>
@@ -1291,7 +1291,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("PaymentMethodID");
 
-                    b.ToTable("PaymentMethod");
+                    b.ToTable("PaymentMethod", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PaymentStatus", b =>
@@ -1308,7 +1308,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("PaymentStatusID");
 
-                    b.ToTable("PaymentStatus");
+                    b.ToTable("PaymentStatus", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Promotion", b =>
@@ -1357,7 +1357,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PromotionImageID");
 
-                    b.ToTable("Promotions");
+                    b.ToTable("Promotions", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.PromotionImage", b =>
@@ -1374,7 +1374,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("PromotionImageID");
 
-                    b.ToTable("PromotionImages");
+                    b.ToTable("PromotionImages", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.RequestUrl", b =>
@@ -1394,7 +1394,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("RequestUrlId");
 
-                    b.ToTable("RequestUrls");
+                    b.ToTable("RequestUrls", (string)null);
 
                     b.HasData(
                         new
@@ -1616,7 +1616,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("Reviews");
+                    b.ToTable("Reviews", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Room", b =>
@@ -1653,7 +1653,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("RoomTypeID");
 
-                    b.ToTable("Rooms");
+                    b.ToTable("Rooms", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.RoomSubType", b =>
@@ -1670,7 +1670,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("RoomSubTypeID");
 
-                    b.ToTable("RoomSubTypes");
+                    b.ToTable("RoomSubTypes", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.RoomType", b =>
@@ -1687,7 +1687,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("RoomTypeID");
 
-                    b.ToTable("RoomTypes");
+                    b.ToTable("RoomTypes", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Schedule", b =>
@@ -1746,7 +1746,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("TourVoucherID");
 
-                    b.ToTable("Schedule");
+                    b.ToTable("Schedule", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Seats", b =>
@@ -1768,7 +1768,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageTransportationID");
 
-                    b.ToTable("Seats");
+                    b.ToTable("Seats", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.State", b =>
@@ -1790,7 +1790,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("CountryID");
 
-                    b.ToTable("States");
+                    b.ToTable("States", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.TourVoucher", b =>
@@ -1815,7 +1815,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("PackageID");
 
-                    b.ToTable("TourVouchers");
+                    b.ToTable("TourVouchers", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.TransportProvider", b =>
@@ -1850,7 +1850,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("TransportProviderID");
 
-                    b.ToTable("TransportProviders");
+                    b.ToTable("TransportProviders", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.Transportation", b =>
@@ -1881,7 +1881,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("TransportationTypeID");
 
-                    b.ToTable("Transportation");
+                    b.ToTable("Transportation", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.TransportationCatagory", b =>
@@ -1898,7 +1898,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("TransportationCatagoryID");
 
-                    b.ToTable("TransportationCatagories");
+                    b.ToTable("TransportationCatagories", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.TransportationType", b =>
@@ -1916,7 +1916,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("TransportationTypeID");
 
-                    b.ToTable("TransportationTypes");
+                    b.ToTable("TransportationTypes", (string)null);
                 });
 
             modelBuilder.Entity("DataAccessLayer.Entities.UrlService", b =>
@@ -1942,7 +1942,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("RequestUrlId");
 
-                    b.ToTable("UrlServices");
+                    b.ToTable("UrlServices", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

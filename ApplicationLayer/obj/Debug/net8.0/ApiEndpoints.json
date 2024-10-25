@@ -970,22 +970,6 @@
   },
   {
     "ContainingType": "ApplicationLayer.Controllers.PackageController",
-    "Method": "CreatePackage",
-    "RelativePath": "api/Package/add",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "DataAccessLayer.DTOs.InputModels.PackageInsertModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApplicationLayer.Controllers.PackageController",
     "Method": "AddPackageBudget",
     "RelativePath": "api/Package/add-package-budget",
     "HttpMethod": "POST",
@@ -995,22 +979,6 @@
       {
         "Name": "model",
         "Type": "DataAccessLayer.DTOs.InputModels.PackageBudgetInsertModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApplicationLayer.Controllers.PackageController",
-    "Method": "AddPackageFacility",
-    "RelativePath": "api/Package/add-package-facility",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "DataAccessLayer.DTOs.InputModels.PackageFacilityInsertModel",
         "IsRequired": true
       }
     ],
@@ -1034,8 +1002,66 @@
   },
   {
     "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "PostPackageLocation",
+    "RelativePath": "api/Package/add-package-location/{packageId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageLocationInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "CreatePackage",
+    "RelativePath": "api/Package/add/package",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageInsertModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "customUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "AddPackageFacility",
+    "RelativePath": "api/Package/add/package/facility",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageFacilityInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
     "Method": "AddPackageGallery",
-    "RelativePath": "api/Package/add-package-gallery",
+    "RelativePath": "api/Package/add/package/gallery",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1059,27 +1085,6 @@
         "Name": "PackageID",
         "Type": "System.Int32",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApplicationLayer.Controllers.PackageController",
-    "Method": "PostPackageLocation",
-    "RelativePath": "api/Package/add-package-location/{packageId}",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "packageId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "model",
-        "Type": "DataAccessLayer.DTOs.InputModels.PackageLocationInsertModel",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -1123,22 +1128,6 @@
   },
   {
     "ContainingType": "ApplicationLayer.Controllers.PackageController",
-    "Method": "GetAllImagesByPackageId",
-    "RelativePath": "api/Package/get-images-by-package/{packageId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "packageId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApplicationLayer.Controllers.PackageController",
     "Method": "GetPackageBudget",
     "RelativePath": "api/Package/get-package-budget/{packageId}",
     "HttpMethod": "GET",
@@ -1171,8 +1160,39 @@
   },
   {
     "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetTotalCostByCategory",
+    "RelativePath": "api/Package/get-total-cost-by-category/{packageID}/{dayCostCategoryID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dayCostCategoryID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "GetAllPackages",
+    "RelativePath": "api/Package/get/all/packages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
     "Method": "GetPackageById",
-    "RelativePath": "api/Package/get-package/{packageId}",
+    "RelativePath": "api/Package/get/package/{packageId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1187,19 +1207,14 @@
   },
   {
     "ContainingType": "ApplicationLayer.Controllers.PackageController",
-    "Method": "GetTotalCostByCategory",
-    "RelativePath": "api/Package/get-total-cost-by-category/{packageID}/{dayCostCategoryID}",
+    "Method": "GetAllImagesByPackageId",
+    "RelativePath": "api/Package/get/package/gallery/{packageId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "packageID",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "dayCostCategoryID",
+        "Name": "packageId",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -1609,8 +1624,29 @@
   },
   {
     "ContainingType": "ApplicationLayer.Controllers.PackageController",
+    "Method": "UpdatePackage",
+    "RelativePath": "api/Package/update-package/{packageId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.InputModels.PackageInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicationLayer.Controllers.PackageController",
     "Method": "UpdatePackageGallery",
-    "RelativePath": "api/Package/update-package-gallery/{galleryId}",
+    "RelativePath": "api/Package/update/package/gallery/{galleryId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1639,27 +1675,6 @@
         "Name": "PackageID",
         "Type": "System.Int32",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApplicationLayer.Controllers.PackageController",
-    "Method": "UpdatePackage",
-    "RelativePath": "api/Package/update-package/{packageId}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "packageId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "model",
-        "Type": "DataAccessLayer.DTOs.InputModels.PackageInsertModel",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -1756,7 +1771,7 @@
   {
     "ContainingType": "ApplicationLayer.Controllers.PackageCategoryController",
     "Method": "CreatePackageCategory",
-    "RelativePath": "api/PackageCategory/add-category",
+    "RelativePath": "api/PackageCategory/add/category",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1777,7 +1792,7 @@
   {
     "ContainingType": "ApplicationLayer.Controllers.PackageCategoryController",
     "Method": "GetAllPackageCategories",
-    "RelativePath": "api/PackageCategory/all-categories",
+    "RelativePath": "api/PackageCategory/get/all/categories",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1793,7 +1808,7 @@
   {
     "ContainingType": "ApplicationLayer.Controllers.PackageCategoryController",
     "Method": "GetPackageCategoryById",
-    "RelativePath": "api/PackageCategory/category/{categoryId}",
+    "RelativePath": "api/PackageCategory/get/category/{categoryId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1814,7 +1829,7 @@
   {
     "ContainingType": "ApplicationLayer.Controllers.PackageCategoryController",
     "Method": "UpdatePackageCategory",
-    "RelativePath": "api/PackageCategory/update-category/{categoryId}",
+    "RelativePath": "api/PackageCategory/update/category/{categoryId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
