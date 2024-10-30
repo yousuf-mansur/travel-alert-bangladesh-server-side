@@ -1,5 +1,21 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Locations\sajek (8)_d0559769-58eb-48a9-894d-99ea1740d60c.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ApplicationLayer</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ApplicationLayer</BasePath>
+      <RelativePath>Uploads/Locations/sajek (8)_d0559769-58eb-48a9-894d-99ea1740d60c.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Locations\sajek (8)_d0559769-58eb-48a9-894d-99ea1740d60c.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Packages\Akhi_317d56bd-7ba6-4013-bc1a-8975a7119657.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ApplicationLayer</SourceId>

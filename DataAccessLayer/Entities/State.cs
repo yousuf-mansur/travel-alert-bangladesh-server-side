@@ -1,4 +1,6 @@
-﻿namespace DataAccessLayer.Entities
+﻿using System.Text.Json.Serialization;
+
+namespace DataAccessLayer.Entities
 {
     public class State
     {
@@ -9,7 +11,9 @@
         public int CountryID { get; set; }
         public Country Country { get; set; }
 
+
         // Navigation property
+        [JsonIgnore]
         public ICollection<Location> Locations { get; set; }
 
     }
