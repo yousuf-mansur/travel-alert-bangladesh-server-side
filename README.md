@@ -92,7 +92,7 @@ The following NuGet packages are used in this project:
 ## About Us
 
 Worked on the Travel Alert Bangladesh platform under the consultation of **Syed Zahidul Hassan, Consultant: Show & Tell Consulting Ltd.
-(IsDB-BISEW IT Scholarship Programme)**. The team is developing the backend services using the latest technologies in **ASP.NET Core**, ensuring scalability and high performance for the travel agency.
+(IsDB-BISEW IT Scholarship Programme)**. Developed the backend services using the latest technologies in **ASP.NET Core**, ensuring scalability and high performance for the travel agency.
 
 Contact: [Md. Yousuf Mansur](mailto:mansurmdyousuf@gmail.com)
 
